@@ -1,0 +1,34 @@
+.sobre {
+  padding: 40px 0;
+}
+
+.sobre h2 {
+  color: #1b2150;
+  margin-bottom: 20px;
+}
+
+.sobre-conteudo {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.sobre-texto,
+.sobre-conteudo img {
+  flex: 1;
+}
+
+.sobre-conteudo img {
+  width: 50%;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .sobre-conteudo {
+    flex-direction: column;
+  }
+  .sobre-conteudo img {
+    width: 100%;
+  }
+}
